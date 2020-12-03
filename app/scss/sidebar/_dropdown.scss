@@ -1,0 +1,27 @@
+.sidebar__dropdown {
+	display: block;
+	width: 100%;
+
+	.ui-menu {
+		padding: 15px 0px;
+		background-color: #fff;
+		box-shadow: 0px 10px 30px rgba(31, 21, 1, 0.1);
+		border-radius: 2px;
+		border: none;
+
+		&-item-wrapper {
+			padding: 12px 30px;
+			font-size: 15px;
+			line-height: 20px;
+			color: #000000;
+			transition: $transition;
+
+			&.ui-state-active {
+				border: none;
+				background: #fff;
+				margin: 0;
+				transition: $transition;
+			}
+		}
+	}
+}

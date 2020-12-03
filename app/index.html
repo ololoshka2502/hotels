@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Hotels</title>
+	<meta name="description" content="Hotels">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+
+	<div class="container">
+
+		<aside id="sidebar" class="sidebar">
+
+
+			<div class="sidebar__item active">
+
+				<div class="sidebar__item-top">
+					<h3 class="sidebar__item-title">Поиск по странам и городам</h3>
+				</div> <!-- sidebar__item-top -->
+
+				<div class="sidebar__item-bottom">
+					<input type="text" class="sidebar__item-input" id="dropdown" placeholder="Введите страну, например, Россия">
+					<div id="dropdown-list" class="sidebar__dropdown"></div>
+				</div> <!-- sidebar__item-top -->
+
+			</div> <!-- sidebar__item -->
+
+
+			<div class="sidebar__item active">
+				<div class="sidebar__item-top">
+					<h3 class="sidebar__item-title">Звезды</h3>
+				</div>
+				
+				<div class="sidebar__item-bottom">
+
+					<div class="sidebar__item-checkbox">
+						<input data-star="0" type="checkbox" id="nostars">
+						<label for="nostars">Без звезд</label>
+					</div> <!-- sidebar__item-checkbox -->
+
+					<div class="sidebar__item-checkbox">
+						<input data-star="1" type="checkbox" id="1star">
+						<label for="1star">1 звезда</label>
+					</div> <!-- sidebar__item-checkbox -->
+
+					<div class="sidebar__item-checkbox">
+						<input data-star="2" type="checkbox" id="2star">
+						<label for="2star">2 звезды</label>
+					</div> <!-- sidebar__item-checkbox -->
+
+					<div class="sidebar__item-checkbox">
+						<input data-star="3" type="checkbox" id="3star">
+						<label for="3star">3 звезды</label>
+					</div> <!-- sidebar__item-checkbox -->
+
+					<div class="sidebar__item-checkbox">
+						<input data-star="4" type="checkbox" id="4star">
+						<label for="4star">4 звезды</label>
+					</div> <!-- sidebar__item-checkbox -->
+
+					<div class="sidebar__item-checkbox">
+						<input data-star="5" type="checkbox" id="5star">
+						<label for="5star">5 звезд</label>
+					</div> <!-- sidebar__item-checkbox -->
+
+				</div> <!-- sidebar__item-bottom -->
+
+			</div> <!-- sidebar__item -->
+
+
+			<div class="sidebar__item active">
+
+				<div class="sidebar__item-top">
+					<h3 class="sidebar__item-title">Тип</h3>
+				</div> <!-- sidebar__item-top -->
+
+				<div class="sidebar__item-bottom">
+
+					<div class="sidebar__item-multiple"></div> <!-- sidebar__item-multiple -->
+
+				</div> <!-- sidebar__item-top -->
+
+			</div> <!-- sidebar__item -->
+
+
+			<div class="sidebar__item active">
+
+				<div class="sidebar__item-top">
+					<h3 class="sidebar__item-title">Цена</h3>
+				</div> <!-- sidebar__item-top -->
+
+				<div class="sidebar__item-bottom">
+					<div class="sidebar__item-range" id="price-range"></div>
+				</div> <!-- sidebar__item-top -->
+
+			</div> <!-- sidebar__item -->
+
+
+		</aside> <!-- sidebar -->
+
+		<div class="right-content">
+
+			
+
+		</div> <!-- right-content -->
+
+	</div> <!-- container -->
+
+
+	<script src="js/app.min.js"></script>
+</body>
+</html>

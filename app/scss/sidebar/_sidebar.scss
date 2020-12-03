@@ -1,0 +1,11 @@
+.sidebar {
+	position: sticky;
+	top: 0;
+	max-width: 300px;
+	width: 100%;
+}
+
+
+
+@import "./sidebarItem";
+@import "./dropdown";

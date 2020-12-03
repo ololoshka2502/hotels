@@ -1,0 +1,29 @@
+@import "config";
+@import "./sidebar/sidebar";
+@import "./hotelcard.scss";
+
+
+.loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url(../img/src/icons/spinner.gif);
+	background-size: 70px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: rgba(255, 255, 255, .95);
+}
+
+.container {
+	padding-top: 56px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.right-content {
+	max-width: calc(100% - 320px);
+	width: 100%;
+}
+
