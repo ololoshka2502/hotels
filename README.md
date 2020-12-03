@@ -1,4 +1,4 @@
-# hotels
-# npm i 
-# npm run server (emulating server)
-# gulp
+# Hotels
+npm i 
+npm run server (emulating server)
+gulp
